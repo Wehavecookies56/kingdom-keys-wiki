@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/getting-started/"}
 ---
 
-# Getting Started
 ## Making a choice
 One of the first things you'll want to do to get started with Kingdom Keys is to make your choice in the [[Station of Awakening\|Station of Awakening]] to do this press the Open Menu key (default is M, see [[Key Binds\|Key Binds]]).
 When opening the menu before making your choice you will be prompted to go to the [[Station of Awakening\|Station of Awakening]]. You will be asked to make 2 choices by right clicking the Pedestals which will determine which of the 3 level paths (Warrior, Mystic and Guardian) as well as your starting stats. After you confirm your choices you will be returned to wherever you were previously.
