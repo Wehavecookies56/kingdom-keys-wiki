@@ -34,11 +34,11 @@ Here are the currently supported versions:
 
 ## About the team
 
-| Profile pic            | Name              | Username        | Role                          | Links                                                                                                     |
-| ---------------------- | ----------------- | --------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------- |
-| ![[4438792.jpg\|200]]  | Estelle (she/her) | Wehavecookies56 | Creator and Co-Lead Developer | [GitHub](https://github.com/Wehavecookies56)<br>[Personal site](https://garden-of-estelle.vercel.app)<br> |
-| ![[5377008.jpg\|200]]  | Abel (he/him)     | Abelatox        | Co-Lead Developer             | [GitHub](https://github.com/Abelatox)                                                                     |
-| ![[23107841.png\|200]] | Nathan (he/him)   | Stel312         | 3D Artist and Developer       | [GitHub](https://github.com/Stel312)                                                                      |
+| Profile pic       | Name              | Username        | Role                          | Links                                                                                                     |
+| ----------------- | ----------------- | --------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------- |
+| ![4438792.jpg](/img/user/4438792.jpg)  | Estelle (she/her) | Wehavecookies56 | Creator and Co-Lead Developer | [GitHub](https://github.com/Wehavecookies56)<br>[Personal site](https://garden-of-estelle.vercel.app)<br> |
+| ![5377008.jpg](/img/user/5377008.jpg)  | Abel (he/him)     | Abelatox        | Co-Lead Developer             | [GitHub](https://github.com/Abelatox)                                                                     |
+| ![23107841.png](/img/user/23107841.png) | Nathan (he/him)   | Stel312         | 3D Artist and Developer       | [GitHub](https://github.com/Stel312)                                                                      |
 
 ---
 ## Planned features
