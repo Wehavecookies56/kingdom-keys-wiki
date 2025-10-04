@@ -14,10 +14,11 @@ There are three pedestals with the Dream Sword, Dream Staff and Dream Shield the
 > * 0 defence
 > 
 
+The ability and stat gains from levels for each chosen path are data driven and have JSON files which allows for a data pack to change them however you like. For a full view of all 3 paths for stat and ability gains see [here](https://levelling.kingdomkeys.online/) this page displays the default paths but it can also read custom JSON files.
+
 > [!NOTE] 
 > If you have cheats enabled or are a server operator you can quickly skip this by using
 `/kingdomkeys choice <chosen> <sacrificed>`
 See [[Commands\|Commands]] for more info.
 
-The ability and stat gains from levels for each chosen path are data driven and have JSON files which allows for a data pack to change them however you like. For a full view of all 3 paths for stat and ability gains see [here](https://levelling.kingdomkeys.online/) this page displays the default paths but it can also read custom JSON files
 
