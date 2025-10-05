@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"]}
 ---
 
-# Kingdom Keys Wiki
-
-
 > [!warning] Warning
 > This Wiki is currently under construction and is incomplete
 
