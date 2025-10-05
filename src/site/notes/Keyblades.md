@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/keyblades/","contentClasses":"pixel"}
+{"dg-publish":true,"permalink":"/keyblades/","contentClasses":"test"}
 ---
 
 Keyblades are the primary weapon type in Kingdom Keys and obtained through summoning with a Keychain.
@@ -10,7 +10,7 @@ Keyblades are the primary weapon type in Kingdom Keys and obtained through summo
 | Abyssal Tide<br>![Abyssal Tide\|100](https://raw.githubusercontent.com/Wehavecookies56/Kingdom-Keys/refs/heads/1.20.1/src/main/resources/assets/kingdomkeys/textures/item/keyblades/abyssal_tide.png)         | 5        | 2     | C    |                              |
 | Aced's Keyblade<br>![Aced's Keyblade\|100](https://raw.githubusercontent.com/Wehavecookies56/Kingdom-Keys/refs/heads/1.20.1/src/main/resources/assets/kingdomkeys/textures/item/keyblades/aceds_keyblade.png) | 8        | 7     | S    |                              |
 | Advent Red<br>![Advent Red\|100](https://raw.githubusercontent.com/Wehavecookies56/Kingdom-Keys/refs/heads/1.20.1/src/main/resources/assets/kingdomkeys/textures/item/keyblades/advent_red.png)               | 4        | 4     | D    |                              |
-| All For One<br>![All For One\|100](https://raw.githubusercontent.com/Wehavecookies56/Kingdom-Keys/refs/heads/1.20.1/src/main/resources/assets/kingdomkeys/textures/item/keyblades/all_for_one.png)            | 6        | 7     | B    |                              |
+| All For One<br>![pixelated\|100](https://raw.githubusercontent.com/Wehavecookies56/Kingdom-Keys/refs/heads/1.20.1/src/main/resources/assets/kingdomkeys/textures/item/keyblades/all_for_one.png)              | 6        | 7     | B    |                              |
 | Astral Blast<br>![Astral Blast\|100](https://raw.githubusercontent.com/Wehavecookies56/Kingdom-Keys/refs/heads/1.20.1/src/main/resources/assets/kingdomkeys/textures/item/keyblades/astral_blast.png)         | 8        | 4     | S    |                              |
 | Aubade<br>![Aubade\|100](https://raw.githubusercontent.com/Wehavecookies56/Kingdom-Keys/refs/heads/1.20.1/src/main/resources/assets/kingdomkeys/textures/item/keyblades/aubade.png)                           | 8        | 4     | S    |                              |
 | Ava's Keyblade<br>![Ava's Keyblade\|100](https://raw.githubusercontent.com/Wehavecookies56/Kingdom-Keys/refs/heads/1.20.1/src/main/resources/assets/kingdomkeys/textures/item/keyblades/avas_keyblade.png)    | 8        | 7     | S    |                              |
