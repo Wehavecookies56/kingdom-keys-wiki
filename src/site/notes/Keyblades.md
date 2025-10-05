@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/keyblades/"}
+{"dg-publish":true,"permalink":"/keyblades/","contentClasses":"pixel"}
 ---
 
 Keyblades are the primary weapon type in Kingdom Keys and obtained through summoning with a Keychain.
