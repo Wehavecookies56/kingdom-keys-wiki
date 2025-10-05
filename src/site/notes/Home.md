@@ -4,6 +4,10 @@
 
 # Kingdom Keys Wiki
 
+
+> [!warning] Warning
+> This Wiki is currently under construction and is incomplete
+
 Welcome to the Kingdom Keys Wiki, this page gives an introduction to what the mod is, use the sidebar to find information about different topics. If you're new to the mod start here: [[Getting Started\|Getting Started]]
 
 ---
