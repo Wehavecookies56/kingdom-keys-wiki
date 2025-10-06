@@ -2,8 +2,10 @@
 {"dg-publish":true,"permalink":"/keyblades/","contentClasses":"pixel"}
 ---
 
-Keyblades are the primary weapon type in Kingdom Keys and obtained through summoning with a Keychain. When using a Keyblade your Strength and Magic stat is combined with the stats from the Keyblade and affect how much damage you deal with melee and magic attacks. Keyblades can be enchanted by either enchanting the Keyblade and de-summoning to save the enchantment onto the Keychain or just by enchanting the Keychain.
-Keychains are equipped in the [[Main Menu\|Main Menu]] in the Equipment menu, the primary Keyblade is equipped in the Weapon slot and secondary Keyblades are equipped under the respective [[Drive Forms\|Drive Form]] slot as well as the [[Abilities\|Synch Blade]] slot.
+Keyblades are the primary weapon type in Kingdom Keys and obtained through summoning with a Keychain so every Keyblade is paired with a Keychain. When using a Keyblade your Strength and Magic stat is combined with the stats from the Keyblade and affect how much damage you deal with melee and magic attacks. Keyblades can be enchanted by either enchanting the Keyblade and de-summoning to save the enchantment onto the Keychain or just by enchanting the Keychain.
+Keychains are equipped in the [[Main Menu\|Main Menu]] in the Equipment menu, the primary Keyblade is equipped in the Weapon slot and secondary Keyblades are equipped under the respective [[Drive Forms\|Drive Form]] slot as well as the [[Abilities\|Synch Blade]] slot. 
+
+They can be upgraded through the [[Keyblade Forge\|Keyblade Forge]] up to level 10 giving a total of 5 extra strength and 5 extra magic.
 
 Summoning a Keyblade is performed by pressing the summon key (G by default see [[Key Binds\|Key Binds]]) which will summon your primary Keyblade to your currently selected hotbar slot as long as you have a free slot in your inventory to move the current item in that slot if there is one if you are currently in a form with a secondary Keyblade or have [[Abilities\|Synch Blade]] equipped the secondary Keyblade will be summoned to the off hand slot requiring 2 empty slots total. Pressing the summon key again will de-summon the Keyblade(s) if you are holding them otherwise it will summon it from the slot in your inventory to the currently selected one. Summoned Keyblades will also de-summon when dropped or when you place it in a container and close it.
 
@@ -12,7 +14,7 @@ Summoning a Keyblade is performed by pressing the summon key (G by default see [
 
 ---
 ## Keyblade stats
-
+Here's a list of every Keyblade and their base stats, these stats are [[Data Driven Customisation\|data driven]].
 > [!NOTE] 
 > The descriptions are pulled from the games and don't necessarily reflect what they say in the mod such as the Kingdom Hearts Dream Drop Distance Keyblades that mention Reality Shifts which are not implemented in Kingdom Keys as of now.
 
@@ -37,4 +39,3 @@ Summoning a Keyblade is performed by pressing the summon key (G by default see [
 | Crabclaw<br>![Crabclaw\|64](https://raw.githubusercontent.com/Wehavecookies56/Kingdom-Keys/refs/heads/1.20.1/src/main/resources/assets/kingdomkeys/textures/item/keyblades/crabclaw.png)                            | 5        | 3     | C    | [[Abilities\|Water Boost]]   | Raises max MP by 1, and enhances magic and summon power. Also deals good physical damage.                                                                   |
 | Crown of Guilt<br>![Crown of Guilt\|64](https://raw.githubusercontent.com/Wehavecookies56/Kingdom-Keys/refs/heads/1.20.1/src/main/resources/assets/kingdomkeys/textures/item/keyblades/crown_of_guilt.png)          | 6        | 7     | B    |                              | A weapon that boosts your Magic to give it incredible power.                                                                                                |
 | Crystal Snow<br>![Crystal Snow\|64](https://raw.githubusercontent.com/Wehavecookies56/Kingdom-Keys/refs/heads/1.20.1/src/main/resources/assets/kingdomkeys/textures/item/keyblades/crystal_snow.png)                | 3        | 6     | D    |                              | A Keyblade with an emphasis on Magic.                                                                                                                       |
-
