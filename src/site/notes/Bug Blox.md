@@ -31,16 +31,16 @@ When these blocks receive Redstone power they will push or pull entities dependi
 
 ### Prize Blox
 Prize Blox can drop these items:
-* [[Spell Orb\|Fire Spell]]
-* [[Spell Orb\|Blizzard Spell]]
-* [[Spell Orb\|Water Spell]]
-* [[Spell Orb\|Thunder Spell]]
-* [[Spell Orb\|Cure Spell]]
-* [[Spell Orb\|Aero Spell]]
-* [[Spell Orb\|Magnet Spell]]
-* [[Spell Orb\|Gravity Spell]]
-* [[Spell Orb\|Reflect Spell]]
-* [[Spell Orb\|Stop Spell]]
+* [[Magic\|Fire Spell]]
+* [[Magic\|Blizzard Spell]]
+* [[Magic\|Water Spell]]
+* [[Magic\|Thunder Spell]]
+* [[Magic\|Cure Spell]]
+* [[Magic\|Aero Spell]]
+* [[Magic\|Magnet Spell]]
+* [[Magic\|Gravity Spell]]
+* [[Magic\|Reflect Spell]]
+* [[Magic\|Stop Spell]]
 * [[Synthesis Materials\|Betwixt Shard]]
 * [[Synthesis Materials\|Sinister Shard]]
 * [[Synthesis Materials\|Stormy Shard]]
@@ -59,5 +59,25 @@ Prize Blox can drop these items:
 
 ### Rare Prize Blox
 Rare Prize Blox can drop these items:
-* 
+* [[Drive Forms\|Valor Form Orb]]
+* [[Drive Forms\|Wisdom Form Orb]]
+* [[Drive Forms\|Master Form Orb]]
+* [[Drive Forms\|Final Form Orb]]
+* [[Drive Forms\|Limit Form Orb]]
+* [[Synthesis Materials\|Betwixt Gem]]
+* [[Synthesis Materials\|Sinister Gem]]
+* [[Synthesis Materials\|Stormy Gem]]
+* [[Synthesis Materials\|Writhing Gem]]
+* [[Synthesis Materials\|Pulsing Gem]]
+* [[Synthesis Materials\|Betwixt Crystal]]
+* [[Synthesis Materials\|Sinister Crystal]]
+* [[Synthesis Materials\|Writhing Crystal]]
+* [[Synthesis Materials\|Pulsing Crystal]]
+* [[Synthesis Materials\|Orichalcum]]
+* [[Synthesis Materials\|Orichalcum+]]
+* [[Synthesis Materials\|Manifest Illusion]]
+* [[Synthesis Materials\|Lost Illusion]]
+* [[Synthesis Materials\|Illusory Crystal]]
+* [[Synthesis Materials\|Evanescent Crystal]]
+* [[Synthesis Materials\|Electrum]]
 
