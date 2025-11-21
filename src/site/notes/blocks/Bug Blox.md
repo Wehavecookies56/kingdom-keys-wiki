@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/blocks/bug-blox/","contentClasses":"pixel"}
 ---
 
-Bug Blox come in a couple of different varieties most of which generate in the Overworld and The End in clusters on the surface with. ![java_c9V9ijDnVA.png](/img/user/java_c9V9ijDnVA.png)
+Bug Blox come in a couple of different varieties most of which generate in the Overworld and The End in clusters on the surface with. ![bug blox cluster.png](/img/user/bug%20blox%20cluster.png)
 
 ## Bug Blox types
 Here is an overview on each of the Bug Blox with greater detail for the more complex ones afterwards.
@@ -23,11 +23,11 @@ Here is an overview on each of the Bug Blox with greater detail for the more com
 | Infested Normal Blox | No               | [[Ores\|Blox Cluster]]                                  | Spawns a [[Blox Bug\|Blox Bug]] when attacked                                 | None                                                                                                                                                                                                   |
 ### Ghost Blox
 When these blocks receive Redstone power they become outlines that have no collision and adjacent Ghost Blox will change without needing direct power.
-![java_KbyDib9lzs.png](/img/user/java_KbyDib9lzs.png)
+![Ghost blox.png](/img/user/Ghost%20blox.png)
 
 ### Magnet Blox
 When these blocks receive Redstone power they will push or pull entities depending on whether they are in Repel or Attract mode to change modes shift+right-click the block and right-click to toggle the range between 1-10.
-![java_UHbxlofhvK.png](/img/user/java_UHbxlofhvK.png)
+![Magnet blox.png](/img/user/Magnet%20blox.png)
 
 ### Prize Blox
 Prize Blox can drop these items:

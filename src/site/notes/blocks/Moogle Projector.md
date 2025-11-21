@@ -8,4 +8,4 @@ It can do the following:
 * View, deposit and take materials
 * Upgrade [[items/Keyblades\|Keyblades]] with the [[Keyblade Forge\|Keyblade Forge]]
 * Synthesise items with [[Synthesis\|Synthesis]]
-It does not have access to the shop for that you will need to find a [[Moogle\|Moogle]].
+By default, unless changed in the config, it does not have access to the shop, for that you will need to find a [[Moogle\|Moogle]].
