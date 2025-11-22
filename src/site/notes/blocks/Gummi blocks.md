@@ -23,14 +23,15 @@ Any of the three type of Gummi blocks can be placed in a stonecutter to modify t
 Some shapes have special placement properties, once holding in your hand they will change the block placement outline to add a guide.
 ![gummi edge placement.png](/img/user/gummi%20edge%20placement.png)![gummi corner placement.png](/img/user/gummi%20corner%20placement.png)
 
-**Special Gummi Blocks**:
+### Special Gummi Blocks
 
 | Name       | Description                                                                                                                                          | Crafting                                  |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
 | Gummi Aero | They are slim versions of the blocks and they allow and increase the gummi ship to rotate.<br>They are obtained by stonecutting normal gummi blocks. | ![gummi aero1.png](/img/user/gummi%20aero1.png)![gummi aero 2.png](/img/user/gummi%20aero%202.png) |
 
 
-**Gummi Weapons**: They allow the ship to have offensive capabilities.
+### Gummi Weapons
+They allow the ship to have offensive capabilities.
 
 | Name       | Size  | Dmg. | Fuel cost | Description                                                                                                                  | Crafting                             | Image                   |
 | ---------- | ----- | ---- | --------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ | ----------------------- |
@@ -44,14 +45,16 @@ Some shapes have special placement properties, once holding in your hand they wi
 | Watera/G   | 2x1x2 | -    | -         | The projectile will be wider and will deal more damage.                                                                      | ![Pasted image 20251122130354.png](/img/user/Pasted%20image%2020251122130354.png) | ![gummi watera.png](/img/user/gummi%20watera.png)   |
 The required magic spells are related to the gummi block type (Fire/G requires a fire spell, Fira/G requires two fire spells).
 
-**Gummi Engines**: They allow the ship to move.
+### Gummi Engines
+They allow the ship to move.
 
 | Name       | Power | Description         | Crafting                             | Image                   |
 | ---------- | ----- | ------------------- | ------------------------------------ | ----------------------- |
 | Vernier/G  | 30    | Smallest engine     | ![Pasted image 20251122131613.png](/img/user/Pasted%20image%2020251122131613.png) | ![gummi vernier.png](/img/user/gummi%20vernier.png)  |
 | Thruster/G | 40    | Medium sized engine | ![Pasted image 20251122131631.png](/img/user/Pasted%20image%2020251122131631.png) | ![gummi thruster.png](/img/user/gummi%20thruster.png) |
 
-**Gummi Cockpits**: They allow players to sit on the ship, different cockpits have different carrying capacity, they also offer some armor.
+### Gummi Cockpits
+They allow players to sit on the ship, different cockpits have different carrying capacity, they also offer some armor.
 
 | Name           | Capacity | Crafting                             | Image                      |
 | -------------- | -------- | ------------------------------------ | -------------------------- |
