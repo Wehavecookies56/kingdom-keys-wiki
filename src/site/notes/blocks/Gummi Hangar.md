@@ -8,7 +8,7 @@ The Gummi Hangar allows you to build Gummi Ships, they can be obtained by crafti
 Once crafted it will look something like this (this screen is heavily work in progress)
 ![Gummi Hangar gui.png](/img/user/Gummi%20Hangar%20gui.png)
 1. Name, required to build or export into a blueprint.
-2.  Import a blueprint into the hangar.
+2. Import a blueprint into the hangar, allows you to visualize it to help you build it.
 3. Export the current designed ship into a blueprint.
 4. Blueprint slot, allows for import and export buttons to work.
 5. Fuel slot, once a combustible item is placed it will get converted to FE and stored in the buffer.
