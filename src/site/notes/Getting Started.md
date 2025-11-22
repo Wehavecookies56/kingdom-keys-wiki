@@ -5,7 +5,7 @@
 ## Making a choice
 One of the first things you'll want to do to get started with Kingdom Keys is to make your choice in the [[Station of Awakening\|Station of Awakening]] to do this press the Open Menu key (default is M, see [[Key Binds\|Key Binds]]).
 When opening the menu before making your choice you will be prompted to go to the [[Station of Awakening\|Station of Awakening]]. You will be asked to make 2 choices by right clicking the Pedestals which will determine which of the 3 level paths (Warrior, Mystic and Guardian) as well as your starting stats. After you confirm your choices you will be returned to wherever you were previously.
- ![soa_start.png](/img/user/soa_start.png)
+ ![soa_start.png](/img/user/img/soa_start.png)
 
 > [!tip] 
 > You can press the space key to instantly advance the dialogue forward and skip the fade animations
@@ -26,15 +26,15 @@ Most [[Synthesis Materials\|Synthesis Materials]] can be mined from their respec
 
 Once you have learnt a recipe you can use that recipe in the [[Synthesis\|Synthesis]] menu which is accessed by either a [[Moogle\|Moogle]] or a [[blocks/Moogle Projector\|Moogle Projector]] (the block form of a [[Moogle\|Moogle]]) you can find Moogles randomly wandering like any other peaceful mob but if you want consistent access you can use a [[blocks/Moogle Projector\|Moogle Projector]] which is obtained by killing a [[Moogle\|Moogle]] with a falling Anvil. 
 
-![moogle_projector.png](/img/user/moogle_projector.png)
+![moogle_projector.png](/img/user/img/moogle_projector.png)
 
 Any [[Synthesis Materials\|Synthesis Materials]] you are holding will need to be deposited by going to the Materials menu and clicking "Deposit". Then in the [[Synthesis\|Synthesis]] menu you can select the recipe you want to create and it will display which materials are needed however there is another requirement which is the tier as long as your tier is equal or is above the recipe's tier you can create the item. To increase your synthesis tier you need to gain EXP from creating items with [[Synthesis\|Synthesis]].
 
-![synthesis.png](/img/user/synthesis.png)
+![synthesis.png](/img/user/img/synthesis.png)
 
 After you have created a [[Keychains\|Keychain]] all you need to is open the Main Menu navigate to "Items > Equipment" then click the "---" next to "Weapon" this menu will show all the Keychains you are holding, select your Keychain to equip it now you can now summon your Keyblade with the Summon Weapon key (Default G see [[Key Binds\|Key Binds]]) which will put it in the current hotbar slot, pressing it again will desummon it. Congratulations! You got your first Keyblade.
 
-![equipment_menu.png](/img/user/equipment_menu.png)
+![equipment_menu.png](/img/user/img/equipment_menu.png)
 
 
 
