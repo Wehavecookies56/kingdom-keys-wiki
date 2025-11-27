@@ -13,6 +13,7 @@ Welcome to the Kingdom Keys Wiki, this page gives an introduction to what the mo
 - Download from [Modrinth](https://modrinth.com/mod/kingdom-keys-2)
 - Source code on [GitHub](https://github.com/Wehavecookies56/Kingdom-Keys)
 - Resource Packs on [GitHub](https://github.com/Wehavecookies56/KKRC-ResourcePacks)
+- Talk with us on [Discord](https://discord.gg/vZph4wAbZa)
 - Kingdom Keys Re:Mind addon by Xephiro on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/kingdom-keys-re-mind) 
 
 ---
