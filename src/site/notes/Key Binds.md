@@ -11,4 +11,4 @@
 | Action           | X           | Performs certain actions like quick run                                                                                                                |
 | Lock On          | Z           | Locks on to the entity you are looking at                                                                                                              |
 | Scroll Activator | Left-Alt    | Hold this key to use the scroll wheel and mouse buttons to navigate the [[Command Menu\|Command Menu]]                                                               |
-| Toggle HUD       | O           | Toggles the visibility of the Kingdom Keys HUD elements between 3 states, off, always visible and only visible while holding a [[items/Keyblades\|Keyblade]] |
+| Toggle HUD       | O           | Toggles the visibility of the Kingdom Keys HUD elements between 3 states, off, always visible and only visible while holding a [[items/Weapons/Keyblades\|Keyblade]] |

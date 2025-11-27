@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/drive-forms/"}
+{"dg-publish":true,"permalink":"/systems/drive-forms/"}
 ---
 
 There are 6 different Drive Forms that can be used,
@@ -22,6 +22,6 @@ Everytime you go into Final form you substract 10 antipoints.
 | Under 5         | 0%          |
 | Between 5 and 9 | 10%         |
 | Above 10        | 25%         |
-The ability Light and Darkness makes it so when going into Valor, Wisdom, Limit or Master you always go into antiform.
+The ability [Light and Darkness](Abilities#Support) makes it so when going into Valor, Wisdom, Limit or Master you always go into antiform.
 
-The ability Dark Domination removes the antipoint system and instead you get Antiform as a form you can toggle at will.
+The ability [Dark Domination](Abilities#Support) ignores the antipoints system and instead you get Antiform as a form you can toggle at will.

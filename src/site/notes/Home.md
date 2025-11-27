@@ -22,10 +22,14 @@ Kingdom Keys is a Minecraft mod made with Minecraft Forge for 1.20.1 and below a
 
 Some of the features include, a command menu and main menu styled after Kingdom Hearts II with a functioning Keyblade summoning system with almost every Keyblade featured in the entire Kingdom Hearts series (120+), Drive Form, Ability system, Level system, Magic, Organization XIII system with weapon summoning and Limits, Shotlocks plus more. 
 
+### History
+Kingdom Keys started as small project by Estelle to see if she could get custom 3D models rendering for items, as she had recently got back into Kingdom Hearts in the past few years she decided to make a Kingdom Key model having recently played Kingdom Hearts Re:Coded she thought the [[blocks/Bug Blox\|Bug Blox]] would fit perfectly as blocks in Minecraft and with that the first version of Kingdom Keys was created for 1.5.2 on the 27th of June 2013 with very basic Java and Forge knowledge first posted on the Minecraft Forums. Later on Abel joins having created a custom build of the mod that added a fire magic attack and providing Spanish localisation for the mod eventually becoming co-developer of the mod. Later on Wynd joins creating the first Heartless and later Nobodies and Nathan joins at first just providing custom models for the Organization weapons from Kingdom Hearts 358/2 Days. 
+Throughout the years we have ported the mod to new versions of Minecraft with some versions requiring full rewrites of the mod which took a lot of time and effort but was ultimately worth it in the long run. With the release of Minecraft 1.8 we created Kingdom Keys Re:Coded which then was yet again remade, with Minecraft 1.13 and the huge rewrite of Minecraft Forge, as Kingdom Keys 2.
+
 ---
 ## Supported versions
 Here are the currently supported versions:
-- **1.20.1**
+- **1.20.1** (bug fixes only)
 - **1.21.1**
 
 > [!info] 
@@ -37,9 +41,9 @@ Here are the currently supported versions:
 
 | Profile pic       | Name              | Username        | Role                          | Links                                                                                                     |
 | ----------------- | ----------------- | --------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------- |
-| ![wehavecookies56.jpg](/img/user/img/wehavecookies56.jpg)  | Estelle (she/her) | Wehavecookies56 | Creator and Co-Lead Developer | [GitHub](https://github.com/Wehavecookies56)<br>[Personal site](https://garden-of-estelle.vercel.app)<br> |
-| ![abelatox.jpg](/img/user/img/abelatox.jpg)  | Abel (he/him)     | Abelatox        | Co-Lead Developer             | [GitHub](https://github.com/Abelatox)                                                                     |
-| ![stel312.png](/img/user/img/stel312.png) | Nathan (he/him)   | Stel312         | 3D Artist and Developer       | [GitHub](https://github.com/Stel312)                                                                      |
+| ![wehavecookies56.jpg](/img/user/wehavecookies56.jpg)  | Estelle (she/her) | Wehavecookies56 | Creator and Co-Lead Developer | [GitHub](https://github.com/Wehavecookies56)<br>[Personal site](https://garden-of-estelle.vercel.app)<br> |
+| ![abelatox.jpg](/img/user/abelatox.jpg)  | Abel (he/him)     | Abelatox        | Co-Lead Developer             | [GitHub](https://github.com/Abelatox)                                                                     |
+| ![stel312.png](/img/user/stel312.png) | Nathan (he/him)   | Stel312         | 3D Artist and Developer       | [GitHub](https://github.com/Stel312)                                                                      |
 
 ---
 ## Planned features
