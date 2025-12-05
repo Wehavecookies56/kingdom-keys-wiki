@@ -22,7 +22,7 @@ You should already have the first if you made your choice. This will allow you t
 
 [[Synthesis Recipe\|Synthesis Recipes]] can be found in the chests inside of Moogle Houses in villages and dropped rarely from hostile mobs. The recipes will hold random recipes for Keyblades right clicking while holding them will learn the recipe.
 
-Most [[Synthesis Materials\|Synthesis Materials]] can be mined from their respective ores which are found at different heights and some in certain biomes some also have Nether and End variants see the [[Ores\|Ores]] page for more info. Myhtril materials are obtained through [[Synthesis\|Synthesis]] you can also find [[Blox Clusters\|Blox Clusters]] which sometimes will contain [[blocks/Bug Blox\|Prize Blox and Rare Prize Blox]]. 
+Most [[Synthesis Materials\|Synthesis Materials]] can be mined from their respective ores which are found at different heights and some in certain biomes some also have Nether and End variants see the [[blocks/Ores\|Ores]] page for more info. Myhtril materials are obtained through [[Synthesis\|Synthesis]] you can also find [[Blox Clusters\|Blox Clusters]] which sometimes will contain [[blocks/Bug Blox\|Prize Blox and Rare Prize Blox]]. 
 
 Once you have learnt a recipe you can use that recipe in the [[Synthesis\|Synthesis]] menu which is accessed by either a [[Moogle\|Moogle]] or a [[blocks/Moogle Projector\|Moogle Projector]] (the block form of a [[Moogle\|Moogle]]) you can find Moogles randomly wandering like any other peaceful mob but if you want consistent access you can use a [[blocks/Moogle Projector\|Moogle Projector]] which is obtained by killing a [[Moogle\|Moogle]] with a falling Anvil. 
 
