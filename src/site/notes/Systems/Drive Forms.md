@@ -22,6 +22,7 @@ Everytime you go into Final form you substract 10 antipoints.
 | Under 5         | 0%          |
 | Between 5 and 9 | 10%         |
 | Above 10        | 25%         |
+
 The ability [Light and Darkness](Abilities#Support) makes it so when going into Valor, Wisdom, Limit or Master you always go into antiform.
 
 The ability [Dark Domination](Abilities#Support) ignores the antipoints system and instead you get Antiform as a form you can toggle at will.

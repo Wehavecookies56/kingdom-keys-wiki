@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/systems/synthesis/"}
 ---
 
-Item Synthesis is a crafting system used to create a large number of the items within the mod most importantly Keychains. Rather than using a pattern system [[Synthesis Recipe\|recipes]] need to be obtained and unlocked and the materials need to be deposited before they can be used to create items with Synthesis rather than using items in the player's inventory. They also require Munny and, if enabled in the [[Server Config\|Server Config]], your Moogle level to be high enough.
+Item Synthesis is a crafting system used to create a large number of the items within the mod most importantly Keychains. Rather than using a pattern system [[items/Synthesis Recipe\|recipes]] need to be obtained and unlocked and the materials need to be deposited before they can be used to create items with Synthesis rather than using items in the player's inventory. They also require Munny and, if enabled in the [[Server Config\|Server Config]], your Moogle level to be high enough.
 # Recipes
 By default some recipes are unlocked this can be changed in the common config, here is a list:
 * Mythril Shard

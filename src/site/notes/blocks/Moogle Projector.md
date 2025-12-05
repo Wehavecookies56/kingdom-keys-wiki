@@ -7,5 +7,5 @@ The Moogle Projector is a block form of the [[Moogle\|Moogle]] and can be obtain
 It can do the following:
 * View, deposit and take materials
 * Upgrade [[items/Weapons/Keyblades\|Keyblades]] with the [[Keyblade Forge\|Keyblade Forge]]
-* Synthesise items with [[Synthesis\|Synthesis]]
+* Synthesise items with [[Systems/Synthesis\|Synthesis]]
 By default, unless changed in the config, it does not have access to the shop, for that you will need to find a [[Moogle\|Moogle]].

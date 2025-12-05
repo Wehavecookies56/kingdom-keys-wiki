@@ -4,7 +4,7 @@
 
 Abilities can be equipped to activate various techniques and passive effects at the cost of AP.
 
-They can be unlocked by [[Systems/Leveling\|Leveling]] up normally, leveling up [[Drive Forms\|Drive Forms]] or by equipping certain [[items/Weapons/Keyblades\|Keyblades]] or [[items/Equipment/Accessories\|Accessories]].
+They can be unlocked by [[Systems/Leveling\|Leveling]] up normally, leveling up [[Systems/Drive Forms\|Drive Forms]] or by equipping certain [[items/Weapons/Keyblades\|Keyblades]] or [[items/Equipment/Accessories\|Accessories]].
 
 AP can be increased by leveling up and by consuming [AP Boosts](<Stat boosts#AP>).
 ## Action
