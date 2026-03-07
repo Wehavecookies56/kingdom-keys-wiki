@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/systems/synthesis/"}
 ---
 
-Item Synthesis is a crafting system used to create a large number of the items within the mod most importantly Keychains. Rather than using a pattern system [[items/Synthesis Recipe\|recipes]] need to be obtained and unlocked and the materials need to be deposited before they can be used to create items with Synthesis rather than using items in the player's inventory. They also require Munny and, if enabled in the [[Server Config\|Server Config]], your Moogle level to be high enough.
+Item Synthesis is a crafting system used to create a large number of the items within the mod most importantly Keychains. Rather than using a pattern system [[items/Synthesis Recipe\|recipes]] need to be obtained and unlocked and the materials need to be deposited before they can be used to create items with Synthesis rather than using items in the player's inventory. They also require Munny and, if enabled in the [[config/Server config\|Server Config]], your Moogle level to be high enough.
 # Recipes
 By default some recipes are unlocked this can be changed in the common config, here is a list:
 * Mythril Shard
@@ -28,7 +28,7 @@ By default some recipes are unlocked this can be changed in the common config, h
 
 Recipes are unlocked by using a Recipe item by right clicking while holding them, the recipes learnt are random but will always be a recipe you haven't learnt yet until you have learnt every recipe. Keychain recipes are learnt in groups of three. 
 There are recipe items for Tier D through to Tier SSS, two of the same tier recipe items can be crafted together to upgrade it to the tier above or a single one can be crafted into the tier below.
-Recipes are rare drops from hostile mobs, the drop rate can be changed [[Common Config\|Common Config]] by default it is 2% the tier of recipe that drops is random but limited by the level of the mob,
+Recipes are rare drops from hostile mobs, the drop rate can be changed [[config/Common config\|Common Config]] by default it is 2% the tier of recipe that drops is random but limited by the level of the mob,
 
 Here is a list of every recipe broken down by Tier and item type
 
