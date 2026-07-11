@@ -42,9 +42,9 @@ Here are the currently supported versions:
 
 | Profile pic              | Name              | Username        | Role                          | Links                                                                                                     |
 | ------------------------ | ----------------- | --------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------- |
-| ![wehavecookies56.jpg](/img/user/img/wehavecookies56.jpg) | Estelle (she/her) | Wehavecookies56 | Creator and Co-Lead Developer | [GitHub](https://github.com/Wehavecookies56)<br>[Personal site](https://garden-of-estelle.vercel.app)<br> |
-| ![abelatox.jpg](/img/user/img/abelatox.jpg)        | Abel (he/him)     | Abelatox        | Co-Lead Developer             | [GitHub](https://github.com/Abelatox)                                                                     |
-| ![stel312.png](/img/user/img/stel312.png)         | Nathan (he/him)   | Stel312         | 3D Artist and Developer       | [GitHub](https://github.com/Stel312)                                                                      |
+| ![wehavecookies56.jpg](/img/user/_img/wehavecookies56.jpg) | Estelle (she/her) | Wehavecookies56 | Creator and Co-Lead Developer | [GitHub](https://github.com/Wehavecookies56)<br>[Personal site](https://garden-of-estelle.vercel.app)<br> |
+| ![abelatox.jpg](/img/user/_img/abelatox.jpg)        | Abel (he/him)     | Abelatox        | Co-Lead Developer             | [GitHub](https://github.com/Abelatox)                                                                     |
+| ![stel312.png](/img/user/_img/stel312.png)         | Nathan (he/him)   | Stel312         | 3D Artist and Developer       | [GitHub](https://github.com/Stel312)                                                                      |
 
 ---
 ## Planned features

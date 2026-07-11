@@ -17,6 +17,7 @@ AP can be increased by leveling up and by consuming [AP Boosts](<Stat boosts#AP>
 | Auto Valor  | 1       | Automatically sets the Reaction Command to Valor in a pinch, if Valor Form is usable.   |
 | Auto Wisdom | 1       | Automatically sets the Reaction Command to Wisdom in a pinch, if Wisdom Form is usable. |
 | Strike Raid | 3       | Right click while crouching to throw your keyblade, uses 10MP.                          |
+| Flowstep    | 4       | Right click while using shotlock to airstep to the last targeted entity                 |
 ## Growth
 
 | Name         | AP Cost | Description                                                       |
