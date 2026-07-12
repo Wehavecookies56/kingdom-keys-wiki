@@ -12,12 +12,12 @@ Floor Types define properties of a floor acting as a parent for Room Types.
 Floor Type JSONs are in the `castle_oblivion/floor_type` folder. It is possible to add new Floor Types however adding a new card that uses that type is currently not, a simple addon mod would need to be created to add a new card item.
 Here is a breakdown of the JSON file structure:
 * `(int) crit_path_length`: When generating the floor it generates a "crit path" which is the main path of rooms from the entrance this value determines how many rooms to generate.
-* `(string) biome_colours`: The biome to get the colours for the grass, water, foliage and sky colour from for the rooms on this floor. The sky colour is used for the wall colours unless `use_fog_colour` is true or if a [[#Room Type]] overrides it
-* `[optional] (string) music`: The music to play while in the rooms can be overridden by the [[#Room Type]]
+* `(string) biome_colours`: The biome to get the colours for the grass, water, foliage and sky colour from for the rooms on this floor. The sky colour is used for the wall colours unless `use_fog_colour` is true or if a [[config/Castle Oblivion Data#Room Type\|Castle Oblivion Data#Room Type]] overrides it
+* `[optional] (string) music`: The music to play while in the rooms can be overridden by the [[config/Castle Oblivion Data#Room Type\|Castle Oblivion Data#Room Type]]
 * `[optional] (array string) room_blacklist` A list of rooms to blacklist from generating for this floor. This isn't fully implemented yet.
 * `[optional] (string) starting_room` The first room generated when using the world card in the entrance hall by default this is `kingdomkeys:unknown_room`
-* `[optional] (array modifier) modifiers`: The modifiers for the room see [[#Room Modifier]] for how these work
-* `[optional] (tag string) regular_enemies`: The tag for the enemy spawning pool if this is not set the default tag `\#kingdomkeys:castle_oblivion/regular_enemies` is used. This can be overridden by the [[#Room Type]].
+* `[optional] (array modifier) modifiers`: The modifiers for the room see [[config/Castle Oblivion Data#Room Modifier\|Castle Oblivion Data#Room Modifier]] for how these work
+* `[optional] (tag string) regular_enemies`: The tag for the enemy spawning pool if this is not set the default tag `"#kingdomkeys:castle_oblivion/regular_enemies"` is used. This can be overridden by the [[config/Castle Oblivion Data#Room Type\|Castle Oblivion Data#Room Type]].
 * `[optional] (tag string) strong_enemies`: Currently not implemented
 * `[optional] (bool) use_fog_colour`: Use the fog colour from the biome specified in `biome_colours` instead of the sky colour for the room wall colours this is useful for biomes that don't use the sky colour usually like Nether Wastes which has blue sky but red fog.
 
@@ -41,15 +41,15 @@ Here is a breakdown of the JSON file structure:
 	*  `(enum string) type`: This is used to display the stars on the cards. Possible values "NONE", "S", "M", "L"
 	* `(integer) number_of_enemies`: This is the total number of enemies that can spawn in the room
 	* `(integer) simultaneous_enemies`: This is how many enemies can be spawned at a time in the room if this value is greater than or equal to `number_of_enemies` it is effectively ignored.
-	* `[optional] (tag string) regular_enemies`: The tag for the enemy spawning pool if this is not set `regular_enemies` from the [[#Floor Type]] is used.
+	* `[optional] (tag string) regular_enemies`: The tag for the enemy spawning pool if this is not set `regular_enemies` from the [[config/Castle Oblivion Data#Floor Type\|Castle Oblivion Data#Floor Type]] is used.
 	* `[optional] (tag string) strong_enemies`: Currently not implemented
 * `[optional] (bool) entrance_hall`: Marks whether the room type is an entrance hall should really only be used by the entrance hall room type
 * `[optional] (hex string) colour`: The hex colour for the colour of the room's walls if this is not set the FloorType wall colour is used
-* `[optional] (array modifier) modifiers`: The modifiers for the room see [[#Room Modifier]] for how these work
-* `[optional] (array string) compatible`: The [[#Floor Type]] this room is compatible with should be an existing floor type such as `kingdomkeys:plains`.
+* `[optional] (array modifier) modifiers`: The modifiers for the room see [[config/Castle Oblivion Data#Room Modifier\|Castle Oblivion Data#Room Modifier]] for how these work
+* `[optional] (array string) compatible`: The [[config/Castle Oblivion Data#Floor Type\|Castle Oblivion Data#Floor Type]] this room is compatible with should be an existing floor type such as `kingdomkeys:plains`.
 * `[optional] (string) fixed_room`: Specifies a specific room structure this room type should generate rather than getting a random compatible structure
 * `[optional] (string) music`: Music to play while the player is inside the room
-* `[optional] (string) encounter`: The [[#Room Encounter]] for the room
+* `[optional] (string) encounter`: The [[config/Castle Oblivion Data#Room Encounter\|Castle Oblivion Data#Room Encounter]] for the room
 
 > [!example] Example: stagnant_space.json
 > ```json
@@ -79,7 +79,7 @@ Room Structure JSONs are in the `castle_oblivion/room_structure`.
 Here is a breakdown of the JSON file structure:
 * `(string) structure`: The file name for the structure if `floor_specific_structure` is true then the generator will load a structure with this file name in the folder for the current floor otherwise it will load from the `all` folder. So for example `kingdomkeys:small_1` has `"structure": "small_1"` if you are on a plains floor it will generate `data\kingdomkeys\structure\castle_oblivion\rooms\plains\small_1.nbt`
 * `(enum string) size`: The size categorisation of the room, the with and depth should be around 32x32 for S, 48x48 for M and 64x64 for L. SPECIAL is used for room such as the Entrance Hall where the size doesn't matter and generally shouldn't be used for normal rooms. Possible values are "SPECIAL", "S", "M", "L"
-* `(enum string array) categories`: This is a list of the compatible categories of [[#Room Type]] . Possible values are "ENEMY", "STATUS", "BOUNTY" "SPECIAL", "ENCOUNTER", "ANY".
+* `(enum string array) categories`: This is a list of the compatible categories of [[config/Castle Oblivion Data#Room Type\|Castle Oblivion Data#Room Type]]. Possible values are "ENEMY", "STATUS", "BOUNTY" "SPECIAL", "ENCOUNTER", "ANY".
 * `[optional] (bool) floor_specific_structure`: Setting this to false means the structure will be loaded from the "all" folder 
 
 >[!example] Example: moogle_room.json
@@ -98,10 +98,10 @@ Here is a breakdown of the JSON file structure:
 # Room Encounter
 Room Encounters are encounters that initiate in a room and then end whenever the type of encounter's end condition is met. The main part of a Room Encounter is the Encounter type, depending on the type of encounter the JSON options will change. The other option is the list of items to give as rewards for completing the encounter.
 
-Room Encounter JSONs are in the `castle_oblivion/room_encounter` custom ones can simply be made by making a new file and setting the encounter for a [[#Room Type]] with the new encounter.
+Room Encounter JSONs are in the `castle_oblivion/room_encounter` custom ones can simply be made by making a new file and setting the encounter for a [[config/Castle Oblivion Data#Room Type\|Castle Oblivion Data#Room Type]] with the new encounter.
 Here is a breakdown of the JSON file structure:
 * `(object) encounter`:  The definition for the encounter
-	* `(string) type`: The type of encounter this determines the rest of the options for the encounter see [[#Encounter Types]].
+	* `(string) type`: The type of encounter this determines the rest of the options for the encounter see [[config/Castle Oblivion Data#Encounter Types\|Castle Oblivion Data#Encounter Types]].
 * `(object array) rewards`: List of items to give when the encounter has completed these can have components and a count, can be empty.
 * `[optional] (string) music`: Music to play while the encounter is active
 
@@ -132,7 +132,7 @@ Here is a breakdown of the JSON structure for type `kingdomkeys:wave`
 * `[optional] (bool) shuffle_order`: Randomises the order the waves spawn in by default it follows the order they're defined.
 * `(object array) waves`: The list of waves
 	* `(string array) spawns`: The list of entities to spawn for the wave
-	* `[optional] (modifier array) modifiers`:  The modifiers for the wave see [[#Room Modifier]] for how these work. Modifiers that do something when the room is generated will not do anything.
+	* `[optional] (modifier array) modifiers`:  The modifiers for the wave see [[config/Castle Oblivion Data#Room Modifier\|Castle Oblivion Data#Room Modifier]] for how these work. Modifiers that do something when the room is generated will not do anything.
 
 > [!example] Example: room_of_beginnings.json
 > ```json
@@ -167,7 +167,7 @@ Here is a breakdown of the JSON structure for type `kingdomkeys:wave`
 >]
 > ```
 # Room Modifier
-Room Modifiers are quite versatile objects that can be added to a [[#Room Type]], [[#Floor Type]] and [[#Wave]] Encounters. They can do things when a room is entered and exited, every tick while players are in a room, when a room is generated and when a mob spawns in a room. Each type of modifier has its own options for the JSON.
+Room Modifiers are quite versatile objects that can be added to a [[config/Castle Oblivion Data#Room Type\|Castle Oblivion Data#Room Type]], [[config/Castle Oblivion Data#Floor Type\|Castle Oblivion Data#Floor Type]] and [[config/Castle Oblivion Data#Wave\|Castle Oblivion Data#Wave]] Encounters. They can do things when a room is entered and exited, every tick while players are in a room, when a room is generated and when a mob spawns in a room. Each type of modifier has its own options for the JSON.
 ## Effect
 The effect type `kingdomkeys:effect` applies an effect with infinite duration to players and mobs depending on the target set while in the room.
 Here is a breakdown of the JSON structure:
