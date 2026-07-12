@@ -17,7 +17,7 @@ Here is a breakdown of the JSON file structure:
 * `[optional] (array string) room_blacklist` A list of rooms to blacklist from generating for this floor. This isn't fully implemented yet.
 * `[optional] (string) starting_room` The first room generated when using the world card in the entrance hall by default this is `kingdomkeys:unknown_room`
 * `[optional] (array modifier) modifiers`: The modifiers for the room see [[#Room Modifier]] for how these work
-* `[optional] (tag string) regular_enemies`: The tag for the enemy spawning pool if this is not set the default tag `#kingdomkeys:castle_oblivion/regular_enemies` is used. This can be overridden by the [[#Room Type]].
+* `[optional] (tag string) regular_enemies`: The tag for the enemy spawning pool if this is not set the default tag `\#kingdomkeys:castle_oblivion/regular_enemies` is used. This can be overridden by the [[#Room Type]].
 * `[optional] (tag string) strong_enemies`: Currently not implemented
 * `[optional] (bool) use_fog_colour`: Use the fog colour from the biome specified in `biome_colours` instead of the sky colour for the room wall colours this is useful for biomes that don't use the sky colour usually like Nether Wastes which has blue sky but red fog.
 
