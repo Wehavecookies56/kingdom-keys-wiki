@@ -24,10 +24,10 @@ Here is a breakdown of the JSON file structure:
 > [!example] Example: plains.json
 > ```json
 > {  
-  "biome_colours": "minecraft:plains",  
-  "crit_path_length": 7,  
-  "music": "minecraft:music.game"  
-}
+>  "biome_colours": "minecraft:plains",  
+>  "crit_path_length": 7,  
+>  "music": "minecraft:music.game"  
+>}
 > ```
 
 # Room Type
