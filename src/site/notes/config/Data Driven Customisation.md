@@ -12,7 +12,7 @@ Here is a list of every data driven element:
 * Synthesis recipes
 * Limits
 * Organization Weapons
-* Castle Oblivion (Not fully functional yet)
+* Castle Oblivion
 
 ## Keyblades
 Keyblade data is in the `keyblades` folder, here is the JSON file structure:
@@ -43,3 +43,11 @@ Drive Form data is in the `driveforms` folder, here is the JSON file structure:
 * `(string array) abilities`: the abilities the Form has.
 * `(string array) base_levelup_abilities`: the abilities learnt for the player when levelling up.
 * `(string array) driveform_levelup_abilities`: the abilities learnt for the Form when levelling up.
+
+# Castle Oblivion
+The data for Castle Oblivion is quite complicated within the `castle_oblivion` folder there are 4 subfolders:
+* `floor_type`
+* `room_encounter`
+* `room_structure`
+* `room_type`
+As there is a lot to explain see the dedicated page for [[config/Castle Oblivion Data\|Castle Oblivion Data]]
