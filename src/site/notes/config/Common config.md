@@ -15,6 +15,10 @@ General:
 |driveHeal|Health % restored when using a drive form.|50|integer (0-100)|
 |critMult|Critical Damage Multiplier.|1.5|double (0-100)|
 |needKeybladeForHeartless|Force the player to need a Keyblade or an Organization weapon to hurt Heartless and Nobodies.|false|boolean|
+|hideOrgNames|When enabled players wearing the whole Organization XIII set will not show their playername on their head and in the Tab menu.|true|boolean|
+|generateCOEntrance|Generates the structure to enter Castle Oblivion.|true|boolean|
+|coEntranceChunkX|Chunk X co-ord to generate the Castle Oblivion entrance.|13|integer (0-1000)|
+|coEntranceChunkZ|Chunk Z co-ord to generate the Castle Oblivion entrance.|7|integer (0-1000)|
 
 Gummi:
 
@@ -22,15 +26,10 @@ Gummi:
 |---|---|---|---|
 |allowBlocksInHangarArea|Allow the player to place a hangar in a zone where there are blocks already (probably a good idea to disable on servers).|true|boolean|
 |gummiBlocksDropPercent|Percentage of blocks dropped when the Gummi Ship gets destroyed.|80|integer (0-100)|
+|fuelConsumeFactor|Factor of fuel consumption, the higher the more it consumes.|0.1|double (0-100)|
 
-Savepoint:
-
-| Name                       | Description                                                                           | Default                                                                                                                                                                                                | Type   |
-| -------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------ |
-| savePointMaterials         | Materials used to upgrade save points. Format: `STAT=item`.                           | HP=kingdomkeys:orichalcum,MP=kingdomkeys:illusory_crystal,HUNGER=kingdomkeys:hungry_crystal,FOCUS=kingdomkeys:remembrance_crystal,DRIVE=kingdomkeys:evanescent_crystal,TIER=kingdomkeys:orichalcumplus | string |
-| normalSavePointRestoreList | Stats restored when using a normal savepoint (Allowed: HP, MP, HUNGER, FOCUS, DRIVE). | HP,MP                                                                                                                                                                                                  | string |
-| fullSavePointRestoreList   | Stats restored when using a linked savepoint.                                         | HP,HUNGER,MP,FOCUS                                                                                                                                                                                     | string |
-| warpPointRestoreList       | Stats restored when using a warp point.                                               | HP,HUNGER,MP,FOCUS,DRIVE                                                                                                                                                                               | string |
+>[!info] Savepoints
+>Savepoint upgrade materials and which stats each tier (normal/linked/warp) restores are no longer set here. They're now data-driven via datapack JSON files at `data/kingdomkeys/savepoints/normal.json`, `linked.json` and `warp.json`, which server owners can override with a datapack.
 
 Drops:
 
@@ -43,6 +42,7 @@ Drops:
 |focusDropProbability|Focus Drops Probability.|80|integer (0-100)|
 |drivePointsMultiplier|Drive Points Drop Multiplier.|1.0|float (0-100)|
 |focusPointsMultiplier|Focus Points Drop Multiplier.|1.0|float (0-100)|
+|biomeMemoryDropChance|Biome Memory drop chance.|1|integer (0-100)|
 
 Recipes:
 

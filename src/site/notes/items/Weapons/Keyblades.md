@@ -18,7 +18,7 @@ Summoning a Keyblade is performed by pressing the summon key (G by default see [
 
 ---
 ## Keyblade stats
-Here's a list of every Keyblade and their base stats, these stats are [[config/Data Driven Customisation\|data driven]].
+Here's a list of every Keyblade and their base stats, these stats are [[data-driven customization/Data Driven Customisation\|data driven]].
 > [!NOTE] 
 > The descriptions are pulled from the games and don't necessarily reflect what they say in the mod such as the Kingdom Hearts Dream Drop Distance Keyblades that mention Reality Shifts which are not implemented in Kingdom Keys as of now.
 

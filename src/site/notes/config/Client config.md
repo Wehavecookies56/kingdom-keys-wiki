@@ -11,6 +11,7 @@ General:
 | ----------------- | ------------------------------------------------------------ | ------- | ------- |
 | summonTogether    | Summon both Keyblade and Armor with Summon Keyblade key.     | false   | boolean |
 | auto3rdPersonShip | Automatically change to 3rd person when riding a gummi ship. | true    | boolean |
+| seasonalEvents    | Enable fun cosmetic seasonal events.                          | true    | boolean |
 
 HUD Data: These ones don't matter much in the config, they are changed from inside the game.
 
@@ -28,6 +29,8 @@ HUD Data: These ones don't matter much in the config, they are changed from insi
 | munnyExpHUDData   | Munny get and Exp for next level HUD Data | [0.0, 0.0, 80.0, 60.0, 1.0, 1.0, 0.0, 0.0]    | float array |
 | levelUpHUDData    | Level up notification HUD Data            | [1.0, 10.0, 155.0, 50.0, 1.0, 1.0, 0.0, 2.0]  | float array |
 | driveLevelHUDData | Drive level HUD Data                      | [0.0, -4.0, 155.0, 90.0, 1.0, 1.0, 0.0, 3.0]  | float array |
+| minimapHUDData    | Castle Oblivion Minimap HUD Data          | [2.0, 26.0, 100.0, 100.0, 1.0, 1.0, 0.0, 2.0] | float array |
+| roomNameHUDData   | Castle Oblivion Room Name HUD Data        | [2.0, 138.0, 100.0, 10.0, 1.0, 1.0, 0.0, 8.0] | float array |
 
 
 GUI:
@@ -37,16 +40,18 @@ GUI:
 | showGuiToggle  | Toggle HUD visibility. Weapon option only shows while holding a Keyblade or Organization weapon. | SHOW    | enum    |
 | customFont     | Enable the custom font                                                                           | true    | boolean |
 | showDriveForms | Drive Forms Visibility.                                                                          | true    | boolean |
+| portrait3D     | Render the player portrait as the actual 3D model instead of a 2D skin cutout.                   | false   | boolean |
 
 Command Menu:
 
 | Name                        | Description                                                      | Default           | Type                 |
 | --------------------------- | ---------------------------------------------------------------- | ----------------- | -------------------- |
 | cmChangeColor               | Allow the Command Menu to change colors based on nearby enemies. | true              | boolean              |
-| magicDisplayedInCommandMenu | Magic displayed in the Magic submenu.                            | list of magic IDs | list                 |
+| hiddenMagic                 | Magic to hide from the Command Menu.                             | empty list        | list                 |
 | cmTextXOffset               | Command Menu Text X Offset.                                      | 0                 | integer (-1000-1000) |
 | cmHeaderTextVisibility      | Command Menu Header Text Visibility.                             | true              | boolean              |
 | cmClassicColors             | Command Menu classic color scheme.                               | false             | boolean              |
+| snapChatToCommandMenu       | Push the chat log above the Command Menu so the two do not overlap. | true           | boolean              |
 | cmSelectedXOffset           | Command Menu Selected X Offset.                                  | 5                 | integer (-1000-1000) |
 | cmSubXOffset                | Command Menu Submenu X Offset %.                                 | 100               | integer (-1000-1000) |
 | cmEndLWidth                 | Command Menu Element Left End Segment Width.                     | 10                | integer (0-256)      |
@@ -65,16 +70,17 @@ HP Bar:
 
 Lock On:
 
-| Name               | Description                  | Default | Type                 |
-| ------------------ | ---------------------------- | ------- | -------------------- |
-| lockOnIconScale    | Lock On Icon Scale.          | 75      | integer (-1000-1000) |
-| lockOnIconRotation | Lock On Icon Rotation Speed. | 16      | integer (-1000-1000) |
-| lockOnHpPerBar     | Lock On HP per bar.          | 40      | integer (10-100)     |
+| Name                     | Description                                                                                               | Default | Type                 |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------- | ------- | -------------------- |
+| lockOnIconScale          | Lock On Icon Scale.                                                                                        | 75      | integer (-1000-1000) |
+| lockOnIconRotation       | Lock On Icon Rotation Speed.                                                                               | 16      | integer (-1000-1000) |
+| lockOnHpPerBar           | Lock On HP per bar.                                                                                        | 40      | integer (10-100)     |
+| shoulderSurfingDecoupled | Shoulder Surfing mod: Decoupled camera while not locked on. Only shown if Shoulder Surfing is installed.   | true    | boolean              |
 
 Party:
 
 | Name         | Description           | Default | Type                 |
 | ------------ | --------------------- | ------- | -------------------- |
-| partyYOffset | Party HUD Y Offset.   | 60      | integer (-1000-1000) |
+| partyYOffset | Party HUD Y Offset.   | 70      | integer (-1000-1000) |
 
 
