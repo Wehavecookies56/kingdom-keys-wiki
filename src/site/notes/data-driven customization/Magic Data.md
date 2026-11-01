@@ -14,6 +14,7 @@ Magic data is in the `magics` folder, here is the JSON file structure:
 * `[optional] (string) next_tier`: the id of the next tier spell (eg. Fire → Fira). If not set the spell has no next tier.
 * `[optional] (string) magic_rc`: the id of the Reaction Command tied to casting the spell. If not set there is none.
 * `(enum string) spell_type`: whether the spell counts as physical or magic damage. Possible values "PHYSICAL", "MAGIC"
+* `[optional] (array of strings) interacts_with_blocks`: a list of block interactions this spell can trigger when cast at a block, eg. lighting TNT with Fire or freezing water with Blizzard. Possible values: "light_lightable", "turn_off_lightable", "light_portal", "light_tnt", "extinguish_tnt", "extinguish_fire", "dry_sponge", "wet_sponge", "freeze_water", "freeze_lava".
 
 > [!example] Example: magic_thundara.json
 > ```json
@@ -30,3 +31,21 @@ Magic data is in the `magics` folder, here is the JSON file structure:
 >   "next_tier": "kingdomkeys:magic_thundaga",
 >   "spell_type": "MAGIC"
 > }
+> ```
+
+> [!example] Example: magic_fire.json
+> ```json
+> {
+>   "casttime": 10,
+>   "cooldown": 35,
+>   "cost": 10,
+>   "dmg_mult": 0.1,
+>   "dmg_mult_max": 0.12,
+>   "magic_lock_on": true,
+>   "max_exp": 2000,
+>   "max_lvl": 3,
+>   "next_tier": "kingdomkeys:magic_fira",
+>   "spell_type": "MAGIC",
+>   "interacts_with_blocks": ["light_lightable", "light_tnt", "dry_sponge"]
+> }
+> ```

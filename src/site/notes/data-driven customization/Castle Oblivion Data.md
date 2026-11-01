@@ -109,6 +109,7 @@ Here is a breakdown of the JSON file structure:
 	* `(string) type`: The type of encounter this determines the rest of the options for the encounter see [[data-driven customization/Castle Oblivion Data#Encounter Types\|Encounter Types]].
 * `(object array) rewards`: List of items to give when the encounter has completed these can have components and a count, can be empty.
 * `[optional] (string) music`: Music to play while the encounter is active.
+* `[optional] experience`, `lux`, `arena_radius`, `spawn_points`, `level`, `requires`, `grants`, `info`: the same format is shared with training and duel encounters, see [[data-driven customization/Training and Duel Encounters Data\|Training and Duel Encounters Data]] for what these do.
 
 > [!example] Example: room_of_beginnings.json
 > ```json
@@ -135,6 +136,7 @@ Wave encounters are what they sound like when the encounter starts the first wav
 Here is a breakdown of the JSON structure:
 * `(int) interval_ticks`: Currently not implemented so value does nothing right now however it is required.
 * `[optional] (bool) shuffle_order`: Randomises the order the waves spawn in by default it follows the order they're defined.
+* `[optional] (int) spawn_delay_ticks`: The ticks between each enemy of a wave spawning. Default `14`.
 * `(object array) waves`: The list of waves.
 	* `(string array) spawns`: The list of entities to spawn for the wave.
 	* `[optional] (modifier array) modifiers`:  The modifiers for the wave see [[data-driven customization/Castle Oblivion Data#Room Modifier\|Room Modifier]] for how these work. Modifiers that do something when the room is generated will not do anything.
